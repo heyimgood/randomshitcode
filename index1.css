@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+}
+
+.div1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    animation-name: example;
+    animation-duration: 20s;
+    background-color: beige;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: orange;}
+    20%  {background-color: yellow;}
+    30%  {background-color: green;}
+    40%  {background-color: blue;}
+    50%  {background-color: indigo;}
+    60%  {background-color: violet;}
+    70%  {background-color: red;}
+    80%  {background-color: orange;}
+    90%  {background-color: yellow;}
+    100% {background-color: beige;}
+  }
+
+.link1 {
+    font-size: 10px;
+    color: darkcyan;
+    letter-spacing: 0px;
+ 
+}
+
+.link1:hover {
+    color: darkgoldenrod;
+}
+
+.link2  {
+    font-size: 10px;
+    color: darkcyan;
+    letter-spacing: 0px;
+}
+
+.link2:hover {
+    color: darkgoldenrod;
+}
+
+.img1 {
+    border-radius: 20px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+  
+  .flex-container > div {
+    background-color: beige;
+    padding: 5px;
+    margin: 20px;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    border-radius: 20px;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+    animation-name: example;
+    animation-duration: 20s;
+    background-color: beige;
+    }
+
+    .link4:hover {
+        background-color: black;
+        color: beige;
+        text-decoration: underline;
+      }
+      
+      .link4  {
+        background-color: beige;
+        color: black;
+        margin-top: 20px;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: 2px solid;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+   
+    .download {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: beige;
+    text-align: center;
+}
+
+.animation1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:600px; top:0px;}
+    75%  {left:1000px; top:0px;}
+    100% {left:1400px; top:0px;}
+  }
+
+.animationimg {
+    background-color: black;
+    border-radius: 20px;
+}
+.line {
+        width: 100%;
+        height: 1px;
+        margin-top: 100px;
+        animation-name: example;
+        animation-duration: 20s;
+        background-color: beige;
+
+}
+
+p {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: beige;
+    letter-spacing: 2px;
+}
+
+     
