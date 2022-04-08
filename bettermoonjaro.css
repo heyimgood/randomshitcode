@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    background: darkorange;
+    padding: 20px 10px;
+}
+
+.header .navbar a{
+    font-size:  18px;
+    margin: 30px 30px;
+    color: black;
+    font-family: 'Segoe UI';
+}
+
+.header .navbar a:hover{
+    color: beige;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    animation-name: ani1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.col1{
+    display: flex;
+}
+
+.col1 > div{
+    flex: 1;
+}
+
+.col1 .banner{
+    display: flex;
+    justify-content: center;
+}
+
+.col1 .subtitle{
+    background-color: darkorange;
+    color: black;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'sans-serif';
+}
+
+.line {
+    width: 95%;
+    height: 5px;
+    background-color: beige;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img1 {
+   animation-name: ani2; 
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   position: relative;
+}
+
+@keyframes ani1 {
+   from {color: beige;}
+   to {color: blue;}
+}
+
+@keyframes ani2 {
+    from {border-color: darkorange;}
+    to {border-color: black;}
+}
+
+.content {
+    border: 2px solid darkorange;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid beige;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuSMDGmye6E7QhPxep3hbjwefCfMgEy-1AiUgn_p8_Onus6ucf8ROaOqhgPUjD5AiVaG4&usqp=CAU);
+    background-size: cover;
+    justify-content: center;
+}
+  
+.flex-container img {
+    border: 2px solid darkorange;
+    margin: 10px 10px;
+}
+
+.flex-container img:hover {
+    animation-name: ani2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    
+  }
+
+
+
+
+
