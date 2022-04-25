@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("https://images.unsplash.com/photo-1594621544535-1373ff8388b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eSUyMG5pZ2h0JTIwdmlld3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    filter: blur(8px);
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: beige;
+    font-weight: bold;
+    border: 3px solid beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    animation-name: ani2;
+    animation-duration: 4s;
+    box-shadow: 5px 10px 18px black;
+  }
+
+audio {
+    animation-name: ani1;
+    animation-duration: 2s;
+    width: 500px;
+}
+
+@keyframes ani1 {
+    from {width: 0px;}
+    to {width: 500px;}
+  }
+
+  @keyframes ani2 {
+    from {border-color: black;}
+    to {border-color: beige;}
+  }
