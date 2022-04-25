@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<title>nice try dude</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+<div class="bg-image"></div>
+<div id="myDiv" class="bg-text">
+  <h2>Nice to Meet You!</h2>
+  <h1 style="font-size:50px">I am Wei Sheng</h1>
+  <audio id="myAudio" controls >
+    <source src="Rauf Faik детство Official audio.mp3" type="audio/mpeg">
+  </audio>
+  <p id="demo1"></p>
+
+</div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myAudio").autoplay;
+      document.getElementById("demo").innerHTML = x;
+    }
+    $('#myDiv').hide();
+setTimeout(function(){
+    $("#myDiv").fadeIn(800);
+}, 500)
+setInterval(luckynumber, 1000);
+function luckynumber() {
+document.getElementById("demo1").innerHTML = Math.random()*100;
+}
+</script>
+    
+</body>
+</html>
